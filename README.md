@@ -1,13 +1,28 @@
 # CRUD API
 
-Api are created for Movie application System
+APIs created for Movie Application System.
 
-### important command 
+---
 
-`npm install express`
-`npm init -y`
-`npm run dev`
-`git init`
-`git add .`
-`git commit -m "message"`
-`git push`
+## 📌 Important Commands
+
+1. Initialize Node.js project
+   npm init -y
+
+2. Install Express
+   npm install express
+
+3. Run Development Server
+   npm run dev
+
+4. Initialize Git Repository
+   git init
+
+5. Add Files to Staging
+   git add .
+
+6. Commit Changes
+   git commit -m "message"
+
+7. Push to GitHub
+   git push
