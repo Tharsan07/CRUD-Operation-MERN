@@ -8,6 +8,14 @@ const PORT=3000;
 //MongoDB Connection
 connectDb();
 
+//Middlewares
+
+//For understanding of json data by the browser
+app.use(express.json());
+
+//For handling an urlencoded data
+app.use(express.urlencoded({extended:true}))
+
 
 app.get('/',(req,res)=>{
     res.json({msg:" Server Started! "});

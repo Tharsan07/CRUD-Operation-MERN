@@ -1,12 +1,14 @@
 import express from "express";
 
-import { movieRead,movieGet,movieUpdate,movieDelete} from "../controller/movieController.js";
+import { moviePost,movieGet,movieUpdate,movieDelete} from "../controller/movieController.js";
 
 const router = express.Router();
 
 //C-Craeting a movie
 
-router.post('/',movieRead);
+router.post('/',moviePost);
+
+
 
 
 //R-Reading a movie
