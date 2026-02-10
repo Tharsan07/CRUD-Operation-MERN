@@ -1,8 +1,13 @@
 import express from "express";
 import movieRoutes from "./routes/movieRoute.js";
+import connectDb from "./lib/db.js";
 
 const app = express();
 const PORT=3000;
+
+//MongoDB Connection
+connectDb();
+
 
 app.get('/',(req,res)=>{
     res.json({msg:" Server Started! "});
