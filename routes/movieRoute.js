@@ -1,6 +1,6 @@
 import express from "express";
 
-import { moviePost,movieGet,movieUpdate,movieDelete} from "../controller/movieController.js";
+import {movieDelete,movieGet,moviePost,movieUpdate,movieDetail} from '../controller/movieController.js';
 
 const router = express.Router();
 
@@ -13,6 +13,8 @@ router.post('/',moviePost);
 
 //R-Reading a movie
 router.get('/',movieGet);
+
+router.get('/:id',movieDetail);
 
 
 //U-Updating a movie
