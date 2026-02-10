@@ -1,5 +1,5 @@
 import { json } from "express";
-import movieModel from "./models/movieModel.js";
+import movieModel from "../models/movieModel.js";
 
 
 export const moviePost = async (req, res) => {

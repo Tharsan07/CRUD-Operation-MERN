@@ -1,6 +1,7 @@
 import { model, Schema } from "mongoose";
 
 
+
 //To create an schema for our movie DB
 //To validate an data before passing
 const movieSchema = new Schema({
