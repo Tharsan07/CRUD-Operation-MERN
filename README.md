@@ -19,3 +19,13 @@ APIs created for Movie Application System.
 6. git commit -m "message"
 
 7. git push
+
+## DATA BASE
+
+MongoDb Atlas:
+
+UserName: tharsantharsan05819_db_user
+Password: ahUevfClDy2Tto1Z
+
+Connection String:
+mongodb+srv://tharsantharsan05819_db_user:ahUevfClDy2Tto1Z@moviesapi.9hej3rw.mongodb.net/?appName=MoviesAPI
