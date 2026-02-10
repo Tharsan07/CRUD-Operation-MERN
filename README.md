@@ -22,7 +22,7 @@ APIs created for Movie Application System.
 
 ## DATA BASE
 
-MongoDb Atlas:
+NoSQL -> MongoDB
 
 
 
